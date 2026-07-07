@@ -1,4 +1,4 @@
-tempStr = input("请输入温度:")
+tempStr = input()
 if tempStr[-1] in ['C', 'c']:
     F = eval(tempStr[0:-1]) * 1.8 + 32
     print("{:.2f}F".format(F))
